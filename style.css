@@ -1,0 +1,169 @@
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body
+{background-color:rgba(169, 169, 169, 0.634);
+color:#fff;
+font-family: "Roboto", sans-serif;}
+
+h1
+{padding-top: 15px;
+text-align: center;
+text-decoration: underline;
+font-size: 32px;
+color: #222831;}
+
+/* ! GENISLIK TANIMLAMALARI MATEMATIKSEL HESAPLA DA YAPILABILIR*/
+/* ! WIDTH: MAX(50,400PX)    HEIGHT:CALC(100%-100PX) GIBI    */
+
+
+.main-container
+{width:1000px;
+height: auto;
+margin: auto;}
+
+.centre
+{display: flex;
+justify-content: center;
+align-items: center;}
+
+.navbar
+{display: flex;
+align-items: center;
+width: 1000px;
+height: 80px;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color:#222831;;
+border: 1px solid black;
+border-top-left-radius:10px;
+border-top-right-radius:10px;}
+
+#nav-img
+{width:60px;
+height:60px;
+margin:0px 50px 0px 20px;
+border-radius: 50%;}
+
+.nav-list
+{display: flex;
+list-style: none;
+margin-left: 50px;}
+
+.nav-list li
+{font-size: 20px;
+font-weight: bold;
+padding-left:15px;
+text-align: center;
+background: right / 0% 100% no-repeat linear-gradient(#FE5001,#FE5001);
+transition:background-size 500ms;}
+
+.nav-list li:hover
+{background: left / 100% 100% no-repeat linear-gradient(#FE5001,#FE5001);
+cursor: pointer;}
+
+.content-wrap
+{display: flex;
+width:1000px;
+height: auto;}
+
+.sidebar
+{width: 100px;
+height: 500px;
+margin-right: 10px;
+margin-bottom: 10px;
+background-color:#76ABAE;
+border: 1px solid black;}
+
+.sidebar-items li
+{display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+cursor: pointer;
+font-size: 30px;
+margin-top: 10px;}
+
+i
+{align-items: center;
+color:#222831;}
+
+i:hover
+{color:#FE5001;}
+
+.content
+{width: 900px;
+height: 500px;
+margin-bottom: 10px;
+background-color:#76ABAE;
+border: 1px solid black;
+clear: both;}
+
+.content-items img
+{float: left;
+margin: 30px 15px 0px 15px;}
+
+.content-items p
+{margin: 30px 15px 15px 15px;
+font-size: 20px;
+color: #222831;}
+
+.img-container 
+{display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;}
+
+.list-center
+{margin: 0px 5px;}
+
+.service-list img
+{width: 330px;
+height: 350px;
+object-fit:cover;
+transition: 0.5s all ease-in-out;}
+
+.service-list img:hover
+{opacity: 0.5;
+cursor: pointer;}
+
+.form-section
+{width:1000px;
+height: 500px;
+margin-top: 5px;
+background-color:#76ABAE;}
+
+.form-section label
+{display:flex;
+align-items: center;
+width: 250px;}
+
+.form-section label input
+{align-items: end;
+margin: 10px;}
+
+.button
+{font-size: 20px;
+padding: 5px 10px;
+color: #fff;
+border: 1px solid #fff;
+border-radius: 5px;
+background-color: #FE5001;
+margin-left: 170px;
+cursor: pointer;}
+
+.footer
+{width:1000px;
+height: 80px;
+margin: 15px 0px 10px 0px;
+background-color:#222831;
+border: 1px solid black;}
+
+.footer-col
+{display: flex;
+justify-content:space-around}
+
+.footer-item
+{width: 40%;
+margin: 10px;}
